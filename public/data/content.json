@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "title": "{name} — Portfolio",
+    "description": "Portfolio of {name}: YOUR-ROLE. Projects, art, music and photography.",
+    "lang": "en",
+    "themeDefault": "system",
+    "footerNote": "© 2026 {name}. Built by hand with HTML, CSS & JS."
+  },
+  "profile": {
+    "name": "YOUR NAME",
+    "role": "YOUR-ROLE (e.g. Software Engineer)",
+    "roles": [
+      "YOUR-ROLE 1",
+      "YOUR-ROLE 2",
+      "YOUR-ROLE 3"
+    ],
+    "tagline": "YOUR one-sentence pitch to employers goes here.",
+    "location": "YOUR-CITY, YOUR-COUNTRY",
+    "avatar": "media/avatar.svg",
+    "avatarAlt": "Portrait of YOUR NAME",
+    "availability": "Open to opportunities",
+    "resumeUrl": ""
+  },
+  "links": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/YOUR-USERNAME",
+      "icon": "github",
+      "showInHero": true
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/YOUR-HANDLE",
+      "icon": "linkedin",
+      "showInHero": true
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "url": "mailto:YOUR-EMAIL@example.com",
+      "icon": "email",
+      "showInHero": true
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "url": "",
+      "icon": "instagram",
+      "showInHero": false
+    },
+    {
+      "id": "soundcloud",
+      "label": "SoundCloud",
+      "url": "",
+      "icon": "soundcloud",
+      "showInHero": false
+    }
+  ],
+  "nav": [
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "eyebrow": "Work",
+      "intro": "A selection of things I have built: the problem, what I did and how it turned out."
+    },
+    {
+      "id": "art",
+      "label": "Art",
+      "eyebrow": "Visual work",
+      "intro": "Pieces I have made. Select any artwork to view it full size."
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "eyebrow": "Sound",
+      "intro": "Tracks, sketches and sounds. Players load only when you ask for them."
+    },
+    {
+      "id": "pictures",
+      "label": "Pictures",
+      "eyebrow": "Photography",
+      "intro": "Moments and places through my lens. Select a photo to view it full size."
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "eyebrow": "About",
+      "intro": "My story, skills and experience."
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "eyebrow": "Contact",
+      "intro": "Hiring or collaborating? Say hello."
+    }
+  ],
+  "home": {
+    "headline": "Hi, I'm {name}.",
+    "intro": "YOUR short intro paragraph: what you build, what you care about, what you're looking for.",
+    "highlights": [
+      {
+        "value": "YOUR-N+",
+        "label": "Years building software"
+      },
+      {
+        "value": "YOUR-N",
+        "label": "Shipped projects"
+      },
+      {
+        "value": "YOUR-N",
+        "label": "Artworks"
+      }
+    ],
+    "cta": [
+      {
+        "label": "See my projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Get in touch",
+        "href": "#contact"
+      }
+    ],
+    "featuredProjectIds": [
+      "project-1",
+      "project-2"
+    ]
+  },
+  "about": {
+    "heading": "About me",
+    "paragraphs": [
+      "YOUR first bio paragraph.",
+      "YOUR second bio paragraph."
+    ],
+    "skills": [
+      {
+        "group": "Languages",
+        "items": [
+          "YOUR-SKILL",
+          "YOUR-SKILL"
+        ]
+      },
+      {
+        "group": "Tools",
+        "items": [
+          "YOUR-TOOL",
+          "YOUR-TOOL"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "period": "YOUR-YEAR — Present",
+        "title": "YOUR-JOB-TITLE",
+        "org": "YOUR-COMPANY",
+        "description": "YOUR one-line summary of the role."
+      }
+    ],
+    "facts": [
+      "YOUR fun fact #1",
+      "YOUR fun fact #2"
+    ]
+  },
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "YOUR PROJECT 1",
+      "summary": "One-line summary of YOUR PROJECT 1 (max 160 chars).",
+      "description": "Longer description of YOUR PROJECT 1: the problem, what you did, and the result.",
+      "image": "media/projects/project-1.svg",
+      "imageAlt": "Screenshot of YOUR PROJECT 1",
+      "year": "2026",
+      "role": "YOUR-ROLE on this project",
+      "tags": [
+        "JavaScript",
+        "Node.js"
+      ],
+      "links": [
+        {
+          "label": "Live demo",
+          "url": ""
+        },
+        {
+          "label": "Source",
+          "url": "https://github.com/YOUR-USERNAME/YOUR-REPO-1"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-2",
+      "title": "YOUR PROJECT 2",
+      "summary": "One-line summary of YOUR PROJECT 2 (max 160 chars).",
+      "description": "Longer description of YOUR PROJECT 2: the problem, what you did, and the result.",
+      "image": "media/projects/project-2.svg",
+      "imageAlt": "Screenshot of YOUR PROJECT 2",
+      "year": "2026",
+      "role": "YOUR-ROLE on this project",
+      "tags": [
+        "TypeScript",
+        "React",
+        "Design"
+      ],
+      "links": [
+        {
+          "label": "Live demo",
+          "url": "https://YOUR-DEMO-URL.example.com"
+        },
+        {
+          "label": "Source",
+          "url": "https://github.com/YOUR-USERNAME/YOUR-REPO-2"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "project-3",
+      "title": "YOUR PROJECT 3",
+      "summary": "One-line summary of YOUR PROJECT 3 (max 160 chars).",
+      "description": "Longer description of YOUR PROJECT 3: the problem, what you did, and the result.",
+      "image": "media/projects/project-3.svg",
+      "imageAlt": "Screenshot of YOUR PROJECT 3",
+      "year": "2026",
+      "role": "YOUR-ROLE on this project",
+      "tags": [
+        "Python",
+        "Data"
+      ],
+      "links": [
+        {
+          "label": "Live demo",
+          "url": ""
+        },
+        {
+          "label": "Source",
+          "url": "https://github.com/YOUR-USERNAME/YOUR-REPO-3"
+        }
+      ],
+      "featured": false
+    }
+  ],
+  "art": [
+    {
+      "id": "art-1",
+      "title": "YOUR ARTWORK 1",
+      "src": "media/art/art-1.svg",
+      "alt": "Describe YOUR ARTWORK 1 for screen-reader users",
+      "caption": "YOUR caption",
+      "year": "2026",
+      "medium": "Digital",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "id": "art-2",
+      "title": "YOUR ARTWORK 2",
+      "src": "media/art/art-2.svg",
+      "alt": "Describe YOUR ARTWORK 2 for screen-reader users",
+      "caption": "YOUR caption",
+      "year": "2026",
+      "medium": "Acrylic on canvas",
+      "width": 1500,
+      "height": 1200
+    },
+    {
+      "id": "art-3",
+      "title": "YOUR ARTWORK 3",
+      "src": "media/art/art-3.svg",
+      "alt": "Describe YOUR ARTWORK 3 for screen-reader users",
+      "caption": "YOUR caption",
+      "year": "2026",
+      "medium": "Ink",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "id": "art-4",
+      "title": "YOUR ARTWORK 4",
+      "src": "media/art/art-4.svg",
+      "alt": "Describe YOUR ARTWORK 4 for screen-reader users",
+      "caption": "YOUR caption",
+      "year": "2026",
+      "medium": "Watercolor",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "id": "art-5",
+      "title": "YOUR ARTWORK 5",
+      "src": "media/art/art-5.svg",
+      "alt": "Describe YOUR ARTWORK 5 for screen-reader users",
+      "caption": "YOUR caption",
+      "year": "2026",
+      "medium": "Digital",
+      "width": 1500,
+      "height": 1200
+    },
+    {
+      "id": "art-6",
+      "title": "YOUR ARTWORK 6",
+      "src": "media/art/art-6.svg",
+      "alt": "Describe YOUR ARTWORK 6 for screen-reader users",
+      "caption": "YOUR caption",
+      "year": "2026",
+      "medium": "Mixed media",
+      "width": 1200,
+      "height": 1200
+    }
+  ],
+  "music": {
+    "intro": "YOUR short intro about your music.",
+    "tracks": [
+      {
+        "id": "track-1",
+        "title": "YOUR TRACK (embed)",
+        "artist": "YOUR NAME",
+        "description": "Paste a SoundCloud, Spotify, YouTube or Bandcamp link in url.",
+        "type": "embed",
+        "url": "https://soundcloud.com/YOUR-USERNAME/YOUR-TRACK",
+        "cover": "media/music/cover-1.svg",
+        "coverAlt": "Cover art for YOUR TRACK"
+      },
+      {
+        "id": "track-2",
+        "title": "YOUR TRACK (local file)",
+        "artist": "YOUR NAME",
+        "description": "Drop an .mp3/.ogg/.wav into public/media/music and point url at it.",
+        "type": "audio",
+        "url": "media/music/sample-tone.wav",
+        "cover": "media/music/cover-2.svg",
+        "coverAlt": "Cover art for YOUR TRACK"
+      }
+    ]
+  },
+  "pictures": [
+    {
+      "id": "picture-1",
+      "src": "media/pictures/picture-1.svg",
+      "alt": "Describe YOUR PHOTO 1",
+      "caption": "YOUR caption",
+      "location": "YOUR-PLACE",
+      "date": "2026-01",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "id": "picture-2",
+      "src": "media/pictures/picture-2.svg",
+      "alt": "Describe YOUR PHOTO 2",
+      "caption": "YOUR caption",
+      "location": "YOUR-PLACE",
+      "date": "2026-02",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "id": "picture-3",
+      "src": "media/pictures/picture-3.svg",
+      "alt": "Describe YOUR PHOTO 3",
+      "caption": "YOUR caption",
+      "location": "YOUR-PLACE",
+      "date": "2026-03",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "id": "picture-4",
+      "src": "media/pictures/picture-4.svg",
+      "alt": "Describe YOUR PHOTO 4",
+      "caption": "YOUR caption",
+      "location": "YOUR-PLACE",
+      "date": "2026-04",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "id": "picture-5",
+      "src": "media/pictures/picture-5.svg",
+      "alt": "Describe YOUR PHOTO 5",
+      "caption": "YOUR caption",
+      "location": "YOUR-PLACE",
+      "date": "2026-05",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "id": "picture-6",
+      "src": "media/pictures/picture-6.svg",
+      "alt": "Describe YOUR PHOTO 6",
+      "caption": "YOUR caption",
+      "location": "YOUR-PLACE",
+      "date": "2026-06",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "contact": {
+    "heading": "Let's talk",
+    "blurb": "YOUR note to employers: what roles you're interested in and how to reach you.",
+    "email": "YOUR-EMAIL@example.com",
+    "formEnabled": true
+  }
+}

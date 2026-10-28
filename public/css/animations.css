@@ -1,0 +1,132 @@
+/* Keyframes, reveals, view transitions and reduced-motion overrides. */
+
+
+@keyframes view-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+
+.view.view-enter {
+  animation: view-in 400ms var(--ease-out);
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes lightbox-in {
+  from { opacity: 0; transform: scale(.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes img-in {
+  from { opacity: 0; transform: scale(.985); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: .7; }
+  100% { transform: scale(2.8); opacity: 0; }
+}
+
+@keyframes eq-bounce {
+  0% { transform: scaleY(.25); }
+  100% { transform: scaleY(1); }
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(10px) scale(.97); }
+  to { opacity: 1; transform: none; }
+}
+
+.pop-in {
+  animation: pop-in 380ms var(--ease-out) both;
+  animation-delay: calc(var(--i, 0) * 40ms);
+}
+
+/* Page ready: a gentle fade of the header on first paint */
+html.is-ready .site-header {
+  animation: fade-in 500ms ease both;
+}
+
+/* ---------- Scroll reveals ----------
+   Hidden start state ONLY when JS runs (html.js), so content is never lost if JS fails. */
+[data-reveal] {
+  transition:
+    opacity 700ms var(--ease-out),
+    transform 700ms var(--ease-out);
+  transition-delay: calc(var(--i, 0) * 60ms);
+}
+
+html.js [data-reveal]:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+html.js [data-reveal="fade"]:not(.is-visible) {
+  transform: none;
+}
+
+html.js [data-reveal="scale"]:not(.is-visible) {
+  transform: scale(.94);
+}
+
+/* Hero cascade */
+.hero-text > [data-reveal]:nth-child(3) { --i: 1; }
+.hero-text > [data-reveal]:nth-child(4) { --i: 2; }
+.hero-text > [data-reveal]:nth-child(5) { --i: 3; }
+.hero-text > [data-reveal]:nth-child(6) { --i: 4; }
+.hero-visual[data-reveal] { --i: 2; }
+
+.hero-title {
+  animation: view-in 700ms var(--ease-out) both;
+}
+
+.hero-role {
+  animation: view-in 700ms var(--ease-out) 90ms both;
+}
+
+/* ---------- Reduced motion (OS preference unless overridden, or in-page toggle) ---------- */
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion="full"]) *,
+  :root:not([data-motion="full"]) *::before,
+  :root:not([data-motion="full"]) *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  :root:not([data-motion="full"]) {
+    scroll-behavior: auto !important;
+  }
+
+  :root:not([data-motion="full"]) [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+:root[data-motion="reduced"] *,
+:root[data-motion="reduced"] *::before,
+:root[data-motion="reduced"] *::after {
+  animation-duration: .001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: .001ms !important;
+  scroll-behavior: auto !important;
+}
+
+:root[data-motion="reduced"] {
+  scroll-behavior: auto !important;
+}
+
+:root[data-motion="reduced"] [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+}

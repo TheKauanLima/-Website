@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 1600 1067" role="img" aria-labelledby="t">
+<title id="t">Photo 1 placeholder: replace me</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#19b9e6"/><stop offset=".55" stop-color="#1775a1"/><stop offset="1" stop-color="#0f3957"/>
+</linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="27"/></filter>
+</defs>
+<rect width="1600" height="1067" fill="url(#bg)"/>
+<g filter="url(#soft)"><circle cx="396.4" cy="853.8" r="182" fill="#5fd0f3" opacity="0.3"/><circle cx="199.5" cy="479.4" r="468.3" fill="#0d8fbd" opacity="0.5"/><circle cx="1010.7" cy="435.7" r="345.2" fill="#9fe3f8" opacity="0.4"/></g>
+<g><circle cx="1152" cy="320.1" r="106.7" fill="#9fe3f8" opacity=".85"/>
+<path d="M0 1067 L0 768.2 L160 563.1 L320 768.2 L480 634.5 L640 768.2 L800 552.8 L960 768.2 L1120 712.6 L1280 768.2 L1440 629.2 L1600 768.2 L1600 1067 Z" fill="#0b0b1a" opacity="0.25"/><path d="M0 1067 L0 907 L114.3 867.7 L228.6 907 L342.8 732.4 L457.1 907 L571.4 864.2 L685.7 907 L800 784.5 L914.3 907 L1028.6 721.9 L1142.9 907 L1257.1 815.7 L1371.4 907 L1485.7 744.2 L1600 907 L1600 1067 Z" fill="#0b0b1a" opacity="0.4"/></g>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" text-anchor="middle">
+<rect x="441" y="458" width="718" height="152" rx="76" fill="#0b0b1a" opacity=".55"/>
+<text x="800" y="558" font-size="69" font-weight="800" fill="#ffffff">Photo 1 · replace me</text>
+</g>
+</svg>

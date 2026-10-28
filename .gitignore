@@ -1,0 +1,6 @@
+# Runtime data (contact messages) at the project root only.
+# Root-anchored so public/data/content.json is still committed.
+/data/
+
+node_modules/
+*.log

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1200" viewBox="0 0 1500 1200" role="img" aria-labelledby="t">
+<title id="t">Art 2 placeholder: replace me</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#199be6"/><stop offset=".55" stop-color="#1760a1"/><stop offset="1" stop-color="#0f2e57"/>
+</linearGradient>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<rect width="1500" height="1200" fill="url(#bg)"/>
+<g filter="url(#soft)"><circle cx="836.3" cy="431.8" r="443.2" fill="#0d8fbd" opacity="0.5"/><circle cx="385.6" cy="252.5" r="197.1" fill="#9fe3f8" opacity="0.5"/><circle cx="353.6" cy="1199.2" r="320.3" fill="#0a6a8f" opacity="0.4"/></g>
+<g><path d="M0 936 C 375 744, 750 1128, 1500 864 L 1500 1200 L 0 1200 Z" fill="#0b0b1a" opacity=".22"/><circle cx="1244.6" cy="868.6" r="53.5" fill="none" stroke="#ffffff" stroke-width="6.4" opacity=".6"/><rect x="231.3" y="556.2" width="225.1" height="225.1" rx="45" transform="rotate(26 343.8 668.7)" fill="none" stroke="#5fd0f3" stroke-width="18" opacity=".85"/><circle cx="394.1" cy="556.7" r="91.7" fill="none" stroke="#ffffff" stroke-width="11" opacity=".6"/><rect x="1336.6" y="938.1" width="170.2" height="170.2" rx="34" transform="rotate(1 1421.7 1023.2)" fill="none" stroke="#9fe3f8" stroke-width="13.6" opacity=".85"/><circle cx="289.8" cy="115.7" r="103" fill="none" stroke="#ffffff" stroke-width="12.4" opacity=".6"/></g>
+<g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" text-anchor="middle">
+<rect x="344" y="514" width="811" height="172" rx="86" fill="#0b0b1a" opacity=".55"/>
+<text x="750" y="627" font-size="78" font-weight="800" fill="#ffffff">Art 2 · replace me</text>
+</g>
+</svg>

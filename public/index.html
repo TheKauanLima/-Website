@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; media-src 'self' https:; font-src 'self'; connect-src 'self'; frame-src https://w.soundcloud.com https://open.spotify.com https://www.youtube-nocookie.com https://www.youtube.com https://bandcamp.com https://embed.music.apple.com; object-src 'none'; base-uri 'self'; form-action 'self' mailto:">
+  <title>Portfolio</title>
+  <meta name="description" content="Personal portfolio: projects, art, music and photography.">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#070c12">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="modulepreload" href="js/main.js">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="main" tabindex="-1">
+    <p role="status" class="loading">Loading…</p>
+  </main>
+  <noscript>
+    <div class="noscript">
+      <p><strong>This portfolio needs JavaScript to show its projects, art, music and photos.</strong></p>
+      <p>You can still find me on GitHub (https://github.com/YOUR-USERNAME) and LinkedIn (https://www.linkedin.com/in/YOUR-HANDLE), or email YOUR-EMAIL@example.com.</p>
+    </div>
+  </noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
