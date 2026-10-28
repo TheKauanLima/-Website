@@ -2,23 +2,23 @@
   "schemaVersion": 1,
   "site": {
     "title": "{name} — Portfolio",
-    "description": "Portfolio of {name}: YOUR-ROLE. Projects, art, music and photography.",
+    "description": "Portfolio of {name}: Computer Science student at UCF and full-stack developer building web platforms and AI tools.",
     "lang": "en",
     "themeDefault": "system",
-    "footerNote": "© 2026 {name}. Built by hand with HTML, CSS & JS."
+    "footerNote": "© 2026 {name}."
   },
   "profile": {
-    "name": "YOUR NAME",
-    "role": "YOUR-ROLE (e.g. Software Engineer)",
+    "name": "Kauan Lima",
+    "role": "Computer Science Student & Full-Stack Developer",
     "roles": [
-      "YOUR-ROLE 1",
-      "YOUR-ROLE 2",
-      "YOUR-ROLE 3"
+      "Full-Stack Developer",
+      "Teaching Assistant at UCF",
+      "AI/ML Builder"
     ],
-    "tagline": "YOUR one-sentence pitch to employers goes here.",
-    "location": "YOUR-CITY, YOUR-COUNTRY",
+    "tagline": "I build full-stack web platforms and AI tools, and I help students learn to code.",
+    "location": "Sanford, FL",
     "avatar": "media/avatar.svg",
-    "avatarAlt": "Portrait of YOUR NAME",
+    "avatarAlt": "Portrait of Kauan Lima",
     "availability": "Open to opportunities",
     "resumeUrl": ""
   },
@@ -26,21 +26,21 @@
     {
       "id": "github",
       "label": "GitHub",
-      "url": "https://github.com/YOUR-USERNAME",
+      "url": "https://github.com/TheKauanLima",
       "icon": "github",
       "showInHero": true
     },
     {
       "id": "linkedin",
       "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/YOUR-HANDLE",
+      "url": "https://www.linkedin.com/in/thekauanlima/",
       "icon": "linkedin",
       "showInHero": true
     },
     {
       "id": "email",
       "label": "Email",
-      "url": "mailto:YOUR-EMAIL@example.com",
+      "url": "mailto:thekauanlima@gmail.com",
       "icon": "email",
       "showInHero": true
     },
@@ -68,7 +68,7 @@
       "id": "projects",
       "label": "Projects",
       "eyebrow": "Work",
-      "intro": "A selection of things I have built: the problem, what I did and how it turned out."
+      "intro": "Things I have built, from a community platform with active users to AI agents and backend tools."
     },
     {
       "id": "art",
@@ -92,7 +92,7 @@
       "id": "about",
       "label": "About",
       "eyebrow": "About",
-      "intro": "My story, skills and experience."
+      "intro": "My background, skills and experience."
     },
     {
       "id": "contact",
@@ -103,21 +103,8 @@
   ],
   "home": {
     "headline": "Hi, I'm {name}.",
-    "intro": "YOUR short intro paragraph: what you build, what you care about, what you're looking for.",
-    "highlights": [
-      {
-        "value": "YOUR-N+",
-        "label": "Years building software"
-      },
-      {
-        "value": "YOUR-N",
-        "label": "Shipped projects"
-      },
-      {
-        "value": "YOUR-N",
-        "label": "Artworks"
-      }
-    ],
+    "intro": "I study Computer Science at the University of Central Florida, where I'm also a Teaching Assistant for core CS courses. I'm the sole developer of cursedconcepts.xyz, a community platform with active users, and I build AI tools with agentic workflows and RAG.",
+    "highlights": [],
     "cta": [
       {
         "label": "See my projects",
@@ -129,118 +116,221 @@
       }
     ],
     "featuredProjectIds": [
-      "project-1",
-      "project-2"
+      "cursed-concepts",
+      "ai-job-match"
     ]
   },
   "about": {
     "heading": "About me",
     "paragraphs": [
-      "YOUR first bio paragraph.",
-      "YOUR second bio paragraph."
+      "I'm a Computer Science student at UCF with a 3.9 GPA, working across software engineering, backend and full-stack development, and AI/ML.",
+      "As a Teaching Assistant I support 140 students in Computer Science II, and I previously supported 220 students in Object-Oriented Programming. I help with Java debugging, code review and office hours, and I grade assignments and exams on data structures, algorithms and Big-O analysis.",
+      "Outside class I design, build and ship my own products. Cursed Concepts is a full-stack community platform I built and launched on my own, and my AI Job Match app uses an agentic workflow to rank job listings against a resume."
     ],
     "skills": [
       {
         "group": "Languages",
         "items": [
-          "YOUR-SKILL",
-          "YOUR-SKILL"
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "Java",
+          "C#"
+        ]
+      },
+      {
+        "group": "Frameworks",
+        "items": [
+          "React",
+          "Next.js",
+          "Flask",
+          ".NET MVC",
+          "Entity Framework"
+        ]
+      },
+      {
+        "group": "Data & Cloud",
+        "items": [
+          "PostgreSQL",
+          "SQL Server",
+          "MongoDB",
+          "Azure",
+          "GitHub Actions"
+        ]
+      },
+      {
+        "group": "AI",
+        "items": [
+          "LangChain",
+          "Ollama",
+          "RAG",
+          "Agentic workflows"
         ]
       },
       {
         "group": "Tools",
         "items": [
-          "YOUR-TOOL",
-          "YOUR-TOOL"
+          "Docker",
+          "Git",
+          "GitHub",
+          "JWT",
+          "Clerk",
+          "CI/CD",
+          "Vitest"
         ]
       }
     ],
     "timeline": [
       {
-        "period": "YOUR-YEAR — Present",
-        "title": "YOUR-JOB-TITLE",
-        "org": "YOUR-COMPANY",
-        "description": "YOUR one-line summary of the role."
+        "period": "Summer 2026 — Present",
+        "title": "Teaching Assistant, COP 3503 & COP 3330",
+        "org": "University of Central Florida",
+        "description": "Support 140 students in Computer Science II (previously 220 in Object-Oriented Programming) with Java debugging, code review, office hours and grading."
+      },
+      {
+        "period": "Expected Dec 2027",
+        "title": "B.S. Computer Science (GPA 3.9/4.0)",
+        "org": "University of Central Florida",
+        "description": "Bachelor's degree in Computer Science, maintaining a 3.9 GPA."
+      },
+      {
+        "period": "May 2024",
+        "title": "Associate in Arts",
+        "org": "Seminole State College",
+        "description": "Completed before transferring to UCF."
+      },
+      {
+        "period": "June 2023 — July 2023",
+        "title": "Intern",
+        "org": "Dion Training",
+        "description": "Validated cybersecurity course materials and wrote exam questions for newly developed training content."
       }
     ],
     "facts": [
-      "YOUR fun fact #1",
-      "YOUR fun fact #2"
+      "Microsoft Certified: Azure AI Fundamentals (AI-901)",
+      "Fluent in Portuguese",
+      "U.S. Citizen"
     ]
   },
   "projects": [
     {
-      "id": "project-1",
-      "title": "YOUR PROJECT 1",
-      "summary": "One-line summary of YOUR PROJECT 1 (max 160 chars).",
-      "description": "Longer description of YOUR PROJECT 1: the problem, what you did, and the result.",
-      "image": "media/projects/project-1.svg",
-      "imageAlt": "Screenshot of YOUR PROJECT 1",
+      "id": "cursed-concepts",
+      "title": "Cursed Concepts",
+      "summary": "A full-stack community platform with active users for sharing hero concepts for Valve's Deadlock.",
+      "description": "I designed, built and launched cursedconcepts.xyz as the sole developer. It has user accounts, profiles, concepts, comments, feeds, notifications and image uploads, with Clerk authentication, UploadThing image handling, Zod validation and webhooks. It also includes protected moderation and admin tooling and automated tests with Vitest.",
+      "image": "media/projects/cursed-concepts.svg",
+      "imageAlt": "Screenshot of Cursed Concepts",
       "year": "2026",
-      "role": "YOUR-ROLE on this project",
+      "role": "Sole developer",
       "tags": [
-        "JavaScript",
-        "Node.js"
+        "Next.js",
+        "React",
+        "TypeScript",
+        "MongoDB",
+        "Clerk",
+        "Vitest"
       ],
       "links": [
         {
-          "label": "Live demo",
-          "url": ""
+          "label": "Live site",
+          "url": "https://cursedconcepts.xyz"
         },
         {
           "label": "Source",
-          "url": "https://github.com/YOUR-USERNAME/YOUR-REPO-1"
+          "url": ""
         }
       ],
       "featured": true
     },
     {
-      "id": "project-2",
-      "title": "YOUR PROJECT 2",
-      "summary": "One-line summary of YOUR PROJECT 2 (max 160 chars).",
-      "description": "Longer description of YOUR PROJECT 2: the problem, what you did, and the result.",
-      "image": "media/projects/project-2.svg",
-      "imageAlt": "Screenshot of YOUR PROJECT 2",
+      "id": "ai-job-match",
+      "title": "AI Job Match",
+      "summary": "Discovers job listings and scores each role against an uploaded resume using an agentic AI workflow.",
+      "description": "An agentic workflow analyzes each job's requirements alongside the candidate's qualifications, then matches and ranks the roles automatically. Resume and job-description details are structured into comparable criteria, so every listing shows the candidate's strengths, gaps and how relevant the role is.",
+      "image": "media/projects/ai-job-match.svg",
+      "imageAlt": "Screenshot of AI Job Match",
       "year": "2026",
-      "role": "YOUR-ROLE on this project",
+      "role": "Developer",
       "tags": [
         "TypeScript",
-        "React",
-        "Design"
+        "AI agents"
       ],
       "links": [
         {
           "label": "Live demo",
-          "url": "https://YOUR-DEMO-URL.example.com"
+          "url": "https://jobmatch-jet.vercel.app"
         },
         {
           "label": "Source",
-          "url": "https://github.com/YOUR-USERNAME/YOUR-REPO-2"
+          "url": "https://github.com/TheKauanLima/jobmatch"
         }
       ],
       "featured": true
     },
     {
-      "id": "project-3",
-      "title": "YOUR PROJECT 3",
-      "summary": "One-line summary of YOUR PROJECT 3 (max 160 chars).",
-      "description": "Longer description of YOUR PROJECT 3: the problem, what you did, and the result.",
-      "image": "media/projects/project-3.svg",
-      "imageAlt": "Screenshot of YOUR PROJECT 3",
-      "year": "2026",
-      "role": "YOUR-ROLE on this project",
+      "id": "sql-health-check",
+      "title": "SQL Server Database Health Check",
+      "summary": "A .NET MVC web app that scans SQL Server instances and reports on database health.",
+      "description": "Built with .NET MVC and Entity Framework. Automated queries scan the server and return the essential server and database information needed to assess its health.",
+      "image": "media/projects/sql-health-check.svg",
+      "imageAlt": "Screenshot of the SQL Server Database Health Check app",
+      "year": "2025",
+      "role": "Developer",
       "tags": [
-        "Python",
-        "Data"
+        "C#",
+        ".NET MVC",
+        "Entity Framework",
+        "SQL Server"
       ],
       "links": [
         {
-          "label": "Live demo",
-          "url": ""
-        },
+          "label": "Source",
+          "url": "https://github.com/TheKauanLima/HealthCheck"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "sase-hackathon",
+      "title": "SASE Hackathon: Student Rental Search",
+      "summary": "A rental-search app for students relocating for school, built by a four-person team during a hackathon.",
+      "description": "I developed the backend API with Python Flask and PostgreSQL for storing and retrieving the app's data, helping the team deliver a working MVP before the hackathon deadline.",
+      "image": "media/projects/sase-hackathon.svg",
+      "imageAlt": "Screenshot of the student rental-search app",
+      "year": "2025",
+      "role": "Backend developer, team of four",
+      "tags": [
+        "Python",
+        "Flask",
+        "PostgreSQL"
+      ],
+      "links": [
         {
           "label": "Source",
-          "url": "https://github.com/YOUR-USERNAME/YOUR-REPO-3"
+          "url": ""
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "local-chatbot-agent",
+      "title": "Local Chatbot Agent",
+      "summary": "A conversational AI that runs fully locally with Ollama and Llama 3.2, using RAG for grounded answers.",
+      "description": "A LangChain vector database and retrieval-augmented generation (RAG) workflow supplies relevant context and references to the model before it generates each response.",
+      "image": "media/projects/local-chatbot-agent.svg",
+      "imageAlt": "Screenshot of the local chatbot agent",
+      "year": "2025",
+      "role": "Developer",
+      "tags": [
+        "Python",
+        "LangChain",
+        "Ollama",
+        "RAG"
+      ],
+      "links": [
+        {
+          "label": "Source",
+          "url": "https://github.com/TheKauanLima/OllamaAgent"
         }
       ],
       "featured": false
@@ -320,7 +410,7 @@
       {
         "id": "track-1",
         "title": "YOUR TRACK (embed)",
-        "artist": "YOUR NAME",
+        "artist": "Kauan Lima",
         "description": "Paste a SoundCloud, Spotify, YouTube or Bandcamp link in url.",
         "type": "embed",
         "url": "https://soundcloud.com/YOUR-USERNAME/YOUR-TRACK",
@@ -330,7 +420,7 @@
       {
         "id": "track-2",
         "title": "YOUR TRACK (local file)",
-        "artist": "YOUR NAME",
+        "artist": "Kauan Lima",
         "description": "Drop an .mp3/.ogg/.wav into public/media/music and point url at it.",
         "type": "audio",
         "url": "media/music/sample-tone.wav",
@@ -403,8 +493,8 @@
   ],
   "contact": {
     "heading": "Let's talk",
-    "blurb": "YOUR note to employers: what roles you're interested in and how to reach you.",
-    "email": "YOUR-EMAIL@example.com",
+    "blurb": "I'm interested in software engineering roles across full-stack, backend and AI/ML. Email me or reach out on LinkedIn.",
+    "email": "thekauanlima@gmail.com",
     "formEnabled": true
   }
 }

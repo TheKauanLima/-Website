@@ -31,31 +31,20 @@ test('survives getters that throw', () => {
 
 test('the committed content.json keeps every entry', () => {
   const c = normalizeContent(REAL);
-  assert.equal(c.projects.length, 3);
-  assert.equal(c.art.length, 6);
-  assert.equal(c.pictures.length, 6);
-  assert.equal(c.music.tracks.length, 2);
-  assert.equal(c.nav.length, 7);
-  assert.equal(c.profile.name, 'YOUR NAME');
-  assert.equal(c.site.title, 'YOUR NAME — Portfolio');
-  assert.equal(c.site.footerNote, '© 2026 YOUR NAME. Built by hand with HTML, CSS & JS.');
-  assert.equal(c.home.headline, "Hi, I'm YOUR NAME.");
+  assert.equal(c.projects.length, REAL.projects.length);
+  assert.equal(c.art.length, REAL.art.length);
+  assert.equal(c.pictures.length, REAL.pictures.length);
+  assert.equal(c.music.tracks.length, REAL.music.tracks.length);
+  assert.equal(c.nav.length, REAL.nav.length);
+  assert.equal(c.profile.name, 'Kauan Lima');
+  assert.equal(c.site.title, 'Kauan Lima — Portfolio');
+  assert.equal(c.home.headline, "Hi, I'm Kauan Lima.");
   assert.ok(c.nav.filter((n) => n.id !== 'home').every((n) => n.eyebrow && n.intro));
-  assert.deepEqual(c.home.featuredProjectIds, ['project-1', 'project-2']);
+  // Every featured id points at a real project.
+  assert.ok(c.home.featuredProjectIds.length > 0);
+  assert.ok(c.home.featuredProjectIds.every((id) => c.projects.some((p) => p.id === id)));
   // Links with an empty URL are hidden.
   assert.deepEqual(c.links.map((l) => l.id), ['github', 'linkedin', 'email']);
-  // Embed track is converted to the SoundCloud widget.
-  assert.equal(c.music.tracks[0].embed.provider, 'soundcloud');
-  assert.ok(c.music.tracks[0].embed.src.startsWith('https://w.soundcloud.com/player/?url='));
-  assert.equal(c.music.tracks[1].url, 'media/music/sample-tone.wav');
-});
-
-test('committed content.json marks placeholders with YOUR', () => {
-  const text = JSON.stringify(REAL);
-  assert.match(REAL.profile.name, /YOUR/);
-  assert.match(REAL.links.find((l) => l.id === 'github').url, /YOUR-/);
-  assert.match(REAL.links.find((l) => l.id === 'linkedin').url, /YOUR-/);
-  assert.ok((text.match(/YOUR/g) || []).length > 20);
 });
 
 test('links: drops unsafe/empty urls, maps unknown icons, dedupes ids', () => {

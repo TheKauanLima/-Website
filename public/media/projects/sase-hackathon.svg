@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="t">
-<title id="t">Project 2 placeholder: replace me</title>
+<title id="t">SASE Hackathon placeholder: replace with a screenshot</title>
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#1994e6"/><stop offset=".55" stop-color="#175ca1"/><stop offset="1" stop-color="#0f2c57"/>
+<stop offset="0" stop-color="#19a1e6"/><stop offset=".55" stop-color="#1765a1"/><stop offset="1" stop-color="#0f3157"/>
 </linearGradient>
 <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="19"/></filter>
 </defs>
 <rect width="1200" height="750" fill="url(#bg)"/>
-<g filter="url(#soft)"><circle cx="174.4" cy="490.8" r="330.9" fill="#0d8fbd" opacity="0.3"/><circle cx="732" cy="165.1" r="251.4" fill="#9fe3f8" opacity="0.4"/><circle cx="441.6" cy="717.8" r="188" fill="#0a6a8f" opacity="0.5"/><circle cx="1025.2" cy="710.9" r="280.7" fill="#12b4e9" opacity="0.3"/><circle cx="402.5" cy="671.1" r="231.7" fill="#5fd0f3" opacity="0.3"/></g>
+<g filter="url(#soft)"><circle cx="1174.2" cy="708.5" r="325.9" fill="#0a6a8f" opacity="0.4"/><circle cx="1117.3" cy="96.9" r="224.4" fill="#12b4e9" opacity="0.5"/><circle cx="386.6" cy="305.3" r="139.5" fill="#5fd0f3" opacity="0.4"/><circle cx="1115.4" cy="454.8" r="189.6" fill="#0d8fbd" opacity="0.5"/></g>
 <g><rect x="120" y="90" width="960" height="570" rx="24" fill="#0b0b1a" opacity=".28"/>
 <rect x="120" y="90" width="960" height="51.3" rx="24" fill="#0b0b1a" opacity=".35"/>
 <circle cx="154" cy="115.7" r="9" fill="#12b4e9"/><circle cx="182" cy="115.7" r="9" fill="#5fd0f3"/><circle cx="210" cy="115.7" r="9" fill="#9fe3f8"/>
 <rect x="177.6" y="443.4" width="172.8" height="20" rx="6" fill="#ffffff" opacity=".35"/><rect x="177.6" y="489" width="316.8" height="20" rx="6" fill="#ffffff" opacity=".35"/><rect x="177.6" y="534.6" width="241.9" height="20" rx="6" fill="#ffffff" opacity=".35"/><rect x="177.6" y="580.2" width="403.2" height="20" rx="6" fill="#ffffff" opacity=".35"/></g>
 <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" text-anchor="middle">
 <rect x="345" y="321" width="510" height="108" rx="54" fill="#0b0b1a" opacity=".55"/>
-<text x="600" y="392" font-size="49" font-weight="800" fill="#ffffff">Project 2 · replace me</text>
+<text x="600" y="392" font-size="49" font-weight="800" fill="#ffffff">SASE Hackathon</text>
 </g>
 </svg>

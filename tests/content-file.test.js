@@ -48,9 +48,3 @@ test('every local media path in content.json exists under public/', (t) => {
   const missing = refs.filter(([, rel]) => !fs.existsSync(path.join(PUBLIC_DIR, ...rel.split('/'))));
   assert.deepEqual(missing, [], `missing media files:\n${missing.map(([w, r]) => `  - ${w}: ${r}`).join('\n')}`);
 });
-
-test('every placeholder is findable by searching for "YOUR"', (t) => {
-  if (!present) return t.skip('content.json not present yet');
-  const text = fs.readFileSync(CONTENT_FILE, 'utf8');
-  assert.match(text, /YOUR[- ]/, 'placeholders use the YOUR- / YOUR marker');
-});

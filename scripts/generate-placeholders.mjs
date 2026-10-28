@@ -167,11 +167,18 @@ function toneWav() {
 const written = [];
 written.push(write('avatar.svg', avatarSvg()));
 
-for (let i = 1; i <= 3; i++) {
-  written.push(write(`projects/project-${i}.svg`, frame({
-    w: 1200, h: 750, seed: i, title: `Project ${i} placeholder: replace me`, label: `Project ${i} · replace me`, decor: decorProject,
+const PROJECTS = [
+  ['cursed-concepts', 'Cursed Concepts'],
+  ['ai-job-match', 'AI Job Match'],
+  ['sql-health-check', 'DB Health Check'],
+  ['sase-hackathon', 'SASE Hackathon'],
+  ['local-chatbot-agent', 'Local Chatbot'],
+];
+PROJECTS.forEach(([id, name], idx) => {
+  written.push(write(`projects/${id}.svg`, frame({
+    w: 1200, h: 750, seed: idx + 1, title: `${name} placeholder: replace with a screenshot`, label: name, decor: decorProject,
   })));
-}
+});
 
 const ART_SIZES = [[1200, 1500], [1500, 1200], [1200, 1200], [1200, 1500], [1500, 1200], [1200, 1200]];
 ART_SIZES.forEach(([w, h], idx) => {
